@@ -1,0 +1,73 @@
+*{margin: 0px;
+padding: 0px;
+font-family:"Playfair Display", serif;}
+body{
+    background-color: black;
+    color: rgb(222, 210, 195);
+}
+h1{
+   font-weight: 700;
+   font-family: "Playfair Display", serif;
+   color: rgb(155, 12, 40);
+}
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+   
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+header ul li{
+margin: 20px;
+list-style: none;
+
+}
+header ul li a{
+    color: rgb(31, 116, 92);
+    text-decoration: none;
+}
+header ul li a i{margin-right: 5px;}
+header ul li a:hover{color: aquamarine;
+text-shadow: 2px 3px 4px;}
+#pic{margin-left: 713px;}
+#welcome{position: absolute;
+top: 33%;
+left: 6%;
+color:  rgb(31, 116, 92);}
+
+h2{ font-family: "DM Serif Display", serif;
+    font-size: 100px;
+}
+h3{font-size: x-large;
+color: rgb(31, 116, 92);
+font-size:xx-large;}
+p{text-align: justify;
+margin-left: 100px;
+margin-right: 100px;
+font-family: "Playfair Display", serif;
+font-size: medium;}
+.row{display: flex;
+margin-top: 30px;
+justify-content: space-evenly;}
+.col2{margin-top: 6%;
+}
+.col3{
+border-radius: 15px;}
+h4{   color: rgb(222, 210, 195);
+font-size: larger;}
+.row2{display: flex;
+margin-left: 4%;}
+.row2 p{justify-content: center;
+margin-left: 30px;}
+h5{color: crimson;
+font-size: larger;
+margin-left: 70px;
+margin-top: 2px;}
+
+
+
